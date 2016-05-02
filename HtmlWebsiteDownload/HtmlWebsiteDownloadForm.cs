@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HtmlWebsiteDownload
 {
-    public partial class Form1 : Form
+    public partial class HtmlWebsiteDownloadForm : Form
     {
-        public Form1()
+        public HtmlWebsiteDownloadForm()
         {
             InitializeComponent();
         }
