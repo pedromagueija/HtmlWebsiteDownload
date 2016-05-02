@@ -16,8 +16,8 @@ namespace HtmlWebsiteDownload
 {
     internal class LetterCount
     {
-        public char Letter { get; private set; }
-        public int Count { get; private set; }
+        public char Letter { get; }
+        public int Count { get; }
 
         public LetterCount(char letter, int count)
         {
