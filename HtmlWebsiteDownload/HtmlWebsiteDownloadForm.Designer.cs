@@ -52,6 +52,7 @@
             this.urlTextBox.Name = "urlTextBox";
             this.urlTextBox.Size = new System.Drawing.Size(596, 20);
             this.urlTextBox.TabIndex = 1;
+            this.urlTextBox.Text = "https://en.wikipedia.org/wiki/1918_New_Year_Honours";
             // 
             // downloadButton
             // 
@@ -61,12 +62,13 @@
             this.downloadButton.TabIndex = 2;
             this.downloadButton.Text = "Download";
             this.downloadButton.UseVisualStyleBackColor = true;
+            this.downloadButton.Click += new System.EventHandler(this.OnDownloadButtonClick);
             // 
             // downloadedContentTextBox
             // 
-            this.downloadedContentTextBox.Enabled = false;
             this.downloadedContentTextBox.Location = new System.Drawing.Point(17, 67);
             this.downloadedContentTextBox.Name = "downloadedContentTextBox";
+            this.downloadedContentTextBox.ReadOnly = true;
             this.downloadedContentTextBox.Size = new System.Drawing.Size(321, 381);
             this.downloadedContentTextBox.TabIndex = 3;
             this.downloadedContentTextBox.Text = "";
