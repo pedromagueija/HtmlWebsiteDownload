@@ -16,3 +16,5 @@ Variations:
 * b) Use case sensitive search on the text.
 
 *Note:* The application must not become unresponsive at any point.
+
+*Note:* A good URL to try this would be the longest article in Wikipedia: https://en.wikipedia.org/wiki/1918_New_Year_Honours
